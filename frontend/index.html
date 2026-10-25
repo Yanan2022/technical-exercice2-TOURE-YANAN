@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Text Summarizer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="card">
+    <h1>AI Text Summarizer</h1>
+    <p>Paste a paragraph and let AI summarize it.</p>
+    <label for="textInput">Your text</label>
+    <textarea id="textInput" rows="8" placeholder="Enter a paragraph..."></textarea>
+    <button id="summarizeButton">Summarize</button>
+    <p id="status" role="status"></p>
+    <h2>Summary</h2>
+    <div id="summaryOutput" aria-live="polite">Your summary will appear here.</div>
+  </main>
+</body>
+</html>
